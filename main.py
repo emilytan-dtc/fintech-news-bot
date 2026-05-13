@@ -3,8 +3,8 @@ import time
 import feedparser
 import requests
 
-BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
-CHAT_ID = os.environ['TELEGRAM_CHAT_ID']
+BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '8902247453:AAEqh9rCScyjZfeFE6voBxWDcXjJdQU8u0A')
+CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '1439804619')
 
 FEEDS = [
     "https://cointelegraph.com/rss",
