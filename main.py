@@ -12,6 +12,7 @@ FEEDS = [
     "https://coindesk.com/arc/outboundfeeds/rss/",
     "https://www.theblockcrypto.com/rss.xml",
     "https://decrypt.co/feed",
+    "https://feeds.bloomberg.com/crypto/news.rss",
 ]
 
 def send_message(text):
